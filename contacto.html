@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario y contacto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="estiloscontacto.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <img src="logo.png" alt="logo">
+    <h1>Formulario y contacto</h1>
+
+    <div class="menu">
+        <a href="inicio.html">Inicio</a>
+        <a href="relevantes.html">Relevantes</a>
+        <a href="cuidados.html">Cuidados</a>
+        <a href="fertilizantes.html">Fertilizantes</a>
+        <a href="donaciones.html">Donaciones</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+
+    <p>Formulario de contacto</p>
+
+    <form class="container">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" class="form-control" id="telefono" name="telefono">
+        </div>
+
+        <div class="form-group">
+            <label for="direccion">Dirección:</label>
+            <input type="text" class="form-control" id="direccion" name="direccion">
+        </div>
+
+        <div class="form-group">
+            <label for="mensaje">Escribe tu mensaje aquí:</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <footer>pierosanchez090@gmail.com - Derechos reservados © 2023</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

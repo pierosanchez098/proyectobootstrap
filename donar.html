@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Donar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="estilosdonar.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <img src="logo.png" alt="logo" class="img-fluid">
+    <h1 class="text-center">Donar</h1>
+
+    <div class="menu">
+        <a href="inicio.html">Inicio</a>
+        <a href="relevantes.html">Relevantes</a>
+        <a href="cuidados.html">Cuidados</a>
+        <a href="fertilizantes.html">Fertilizantes</a>
+        <a href="donaciones.html">Donaciones</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="numero-tarjeta">Número de tarjeta de crédito:</label>
+                <input type="text" id="numero-tarjeta" name="numero-tarjeta" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tipo-tarjeta">Tipo de tarjeta:</label>
+                <select id="tipo-tarjeta" name="tipo-tarjeta" class="form-control" required>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="American Express">American Express</option>
+                    <option value="Discover">Discover</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="nombre-titular">Nombre del titular:</label>
+                <input type="text" id="nombre-titular" name="nombre-titular" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha-expiracion">Fecha de expiración:</label>
+                <input type="text" id="fecha-expiracion" name="fecha-expiracion" placeholder="MM/AA" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="codigo-seguridad">Código de seguridad (CVV):</label>
+                <input type="text" id="codigo-seguridad" name="codigo-seguridad" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="direccion-facturacion">Dirección de facturación:</label>
+                <input type="text" id="direccion-facturacion" name="direccion-facturacion" class="form-control" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Donar ya!</button>
+        </form>
+    </div>
+
+    <footer class="text-center">pierosanchez090@gmail.com - Derechos reservados © 2023</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
